@@ -1,0 +1,43 @@
+:root {
+  --black-color: #212121;
+  --red-color: #dd2c00;
+  --white-color: #fafafa;
+}
+
+.header {
+  padding: 0.5em 1em;
+  background-color: var(--black-color);
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav__logo-title {
+  text-align: center;
+}
+
+.nav__logo-title > i {
+  color: var(--red-color);
+  font-size: 1.2em;
+}
+
+.nav__logo-title > span {
+  color: var(--white-color);
+  font-size: 1.2em;
+}
+
+.nav__searchandmenu > a:first-child {
+  color: var(--white-color);
+  font-size: 1em;
+}
+
+.nav__searchandmenu > a:last-child {
+  color: var(--white-color);
+  font-size: 1em;
+}

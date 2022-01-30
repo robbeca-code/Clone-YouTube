@@ -59,6 +59,7 @@
 /* Title and icons */
 .video__titleandicons {
   display: flex;
+  justify-content: space-between;
 }
 
 .video__titleandicons > i {
@@ -194,6 +195,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 1em;
+  width: 100%;
 }
 
 .more__title > span:first-child {
